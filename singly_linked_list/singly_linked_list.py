@@ -69,4 +69,16 @@ class LinkedList:
 
 
     def remove_tail(self):
-        pass
+        # Remove Tail:
+        # Check if it's there
+        # General case:
+        # Start at head and iterate to the next-to-last node
+        # Stop when current_node.next == self.tail
+        # Save the current_tail value
+        # Set self.tail to current_node
+        #
+        # List of 1 element
+        # Save the current_tail.value
+        # Set self.tail to None
+        # Set self.head to None
+        
