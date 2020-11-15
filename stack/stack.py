@@ -14,6 +14,8 @@ return elements in Last In First Out order.
 
 """
 https://www.geeksforgeeks.org/stack-data-structure-introduction-program/
+
+https://www.knowledgehut.com/blog/programming/how-to-implement-python-stack
 """
 from sys import maxsize
 
