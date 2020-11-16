@@ -12,8 +12,8 @@ class Node:
         self.next = next # point to the next node in the list
 
 class LinkedList:
-    def __init__(self):
-        self.: Node = None # points to the first node in the list
+    def __init__(self, head=None, tail=None):
+        self.head: Node = None # points to the first node in the list
         self.tail: Node = None # points to the last node in the list
         self.length = 0
 
@@ -81,4 +81,4 @@ class LinkedList:
         # Save the current_tail.value
         # Set self.tail to None
         # Set self.head to None
-        
+        pass
